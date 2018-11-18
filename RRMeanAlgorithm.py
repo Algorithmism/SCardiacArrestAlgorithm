@@ -20,12 +20,26 @@ from matplotlib import pyplot
 # pyplot.show()
 
 def main():
-    print(rrmean(0,12,40))
+    a = [1,2,3]
+    print(rrmean(a,12,40))
 
-def rrmean(i, N, time):
-    for i in range(time):
+def rrmean(vals, N, time):
 
+    #param N is how many entries/data points
+    n = len(vals)
+
+    #start sum at init 0
+    totalSum = 0
+
+    #sum up the data point values
+    for i in range(n):
+        totalSum += vals[i]
         i = i+1
-    return (i)
+    totalSum = sum(vals)
+
+    #total sum divided by the length of the list of numbers
+    avg = totalSum/n
+    #return the average
+    return (avg)
 
 main()
