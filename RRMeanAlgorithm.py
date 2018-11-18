@@ -23,6 +23,7 @@ def main():
     a = [1,2,3]
     print(rrmean(a,12,40))
 
+# rrmean algorithm cal
 def rrmean(vals, N, time):
 
     #param N is how many entries/data points
