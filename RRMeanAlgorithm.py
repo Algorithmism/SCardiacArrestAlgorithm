@@ -1,3 +1,11 @@
+########################################################################################################################
+# SCA Algorithm: RRMean with Plot                                                                                      #                   #                                                                                      #
+# Author: Mark Maroki                                                                                                  #
+#                                                                                                                      #
+# This program calculates the average of a list of data and uses matplotlib to plot these averages.                    #
+# This program simulates data taken from the Apple Watch 4 ECG per second and calculates the average.                  #
+########################################################################################################################
+
 # generate related variables
 import sys
 from numpy import mean
@@ -39,6 +47,7 @@ def rrmean(line):
 
     # Convert string elements to double
     valList = [float(i) for i in valListCopy]
+
     # param N is how many entries/data points
     n = len(valList)
 
