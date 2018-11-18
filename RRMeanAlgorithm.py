@@ -7,16 +7,22 @@ from numpy.random import randn
 from matplotlib import pyplot
 
 def main():
+    #use the test data to gather results
     with open ("test.txt", "r") as testFile:
+        #count can be used to simulate time
         count = 0
+
         for line in testFile:
+            #increment count by 1 (for real data, this will be in seconds)
             count = count + 1
-            print(rrmean(line))
+
             #prepare data
-            x = count
-            y = rrmean(line)
+            x = count   #implemented to simulate time
+            y = rrmean(line) #average of all of the data
+
             #plot
             pyplot.scatter(x,y)
+        #add title and show the plotted data points
         pyplot.suptitle("Random Data Averages")
         pyplot.show()
 
