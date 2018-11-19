@@ -1,9 +1,9 @@
 ########################################################################################################################
-# This program will implement an algorithm to calculate the square root of the mean of differences between all \n
-# adjacent R-R intervals (Heart Rate Variability Criteria #1 (HRV).
-#
-# Author: Mark Maroki
-#
+# RMSSDAlgorithm Implementation                                                                                        #
+# Author: Mark Maroki                                                                                                  #
+#                                                                                                                      #
+# This program will implement an algorithm to calculate the square root of the mean of differences between all \n      #
+# adjacent R-R intervals (Heart Rate Variability Criteria #1 (HRV).                                                    #
 ########################################################################################################################
 
 from matplotlib import pyplot

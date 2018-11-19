@@ -1,9 +1,10 @@
 ########################################################################################################################
-# SCA Algorithm: RRMean with Plot                                                                                      #                   #                                                                                      #
+# SCA Algorithm: RRMean with Plots                                                                                     #
 # Author: Mark Maroki                                                                                                  #
 #                                                                                                                      #
-# This program calculates the average of a list of data and uses matplotlib to plot these averages.                    #
-# This program simulates data taken from the Apple Watch 4 ECG per second and calculates the average.                  #
+# This program simulates data taken per second from the Apple Watch 4 ECG and calculates the average.                  #
+# In addition, this program uses matplotlib to plot the results on both a scatter plot and a histogram.                #
+#                                                                                                                      #
 ########################################################################################################################
 
 # generate related variables
