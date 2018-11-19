@@ -7,10 +7,6 @@
 ########################################################################################################################
 
 # generate related variables
-import sys
-from numpy import mean
-from numpy import std
-from numpy.random import randn
 
 from matplotlib import pyplot
 

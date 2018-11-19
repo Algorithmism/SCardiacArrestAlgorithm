@@ -1,5 +1,5 @@
 # SCardiacArrestAlgorithm
-Python sudden cardiac arrest algorithm simulation
+Python sudden cardiac arrest algorithm detection simulation
 
 Modules/Libraries:
 MatplotLib
