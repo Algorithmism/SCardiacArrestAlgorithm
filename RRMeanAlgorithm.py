@@ -9,26 +9,41 @@
 # generate related variables
 
 from matplotlib import pyplot
+import matplotlib.pyplot as plt
+
 
 def main():
-    #use the test data to gather results
+    # use the test data to gather results
     with open ("test.txt", "r") as testFile:
-        #count can be used to simulate time
+        # count can be used to simulate time
         count = 0
-
+        avgList = []
         for line in testFile:
-            #increment count by 1 (for real data, this will be in seconds)
+            # increment count by 1 (for real data, this will be in seconds)
             count = count + 1
 
             #prepare data
-            x = count   #implemented to simulate time
+            x = count   # implemented to simulate time
             y = rrmean(line) #average of all of the data
+            # place values into a list
+            avgList.append(y)
 
             #plot
-            pyplot.scatter(x,y)
-        #add title and show the plotted data points
-        pyplot.suptitle("Random Data Averages")
-        pyplot.show()
+            plt.figure(1)
+            plt.scatter(x,y)
+        # add title and show the plotted data points
+        plt.suptitle("Random Data Averages")
+
+        # reverse list so it can go in proper order
+        avgList.reverse()
+        # plot figure 2 (histogram)
+        plt.figure(2)
+        # plot histogram
+        plt.hist(avgList, 250)
+
+        # display plot results
+        plt.show()
+
 
 
 # rrmean algorithm cal
@@ -63,4 +78,5 @@ def rrmean(line):
     # return the average
     return (avg)
 
+#close main
 main()

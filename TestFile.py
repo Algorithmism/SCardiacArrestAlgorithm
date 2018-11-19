@@ -7,5 +7,5 @@ def main():
     sys.stdout = open("test.txt", "w")
     # create 1000 data points for testing purposes
     for i in range(1000):
-        print([random.random() for _ in range(5)])
+        print([random.uniform(0.8,1.2) for _ in range(5)])
 main()
