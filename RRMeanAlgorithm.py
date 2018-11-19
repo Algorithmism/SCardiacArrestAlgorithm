@@ -7,8 +7,6 @@
 ########################################################################################################################
 
 # generate related variables
-
-from matplotlib import pyplot
 import matplotlib.pyplot as plt
 
 
@@ -28,7 +26,7 @@ def main():
             # place values into a list
             avgList.append(y)
 
-            #plot
+            #instantiate figure/plot 1 (scatter plot)
             plt.figure(1)
             plt.scatter(x,y)
         # add title and show the plotted data points
@@ -36,15 +34,15 @@ def main():
 
         # reverse list so it can go in proper order
         avgList.reverse()
-        # plot figure 2 (histogram)
+
+        # instantiate figure 2 (histogram)
         plt.figure(2)
+
         # plot histogram
         plt.hist(avgList, 250)
 
         # display plot results
         plt.show()
-
-
 
 # rrmean algorithm cal
 def rrmean(line):
@@ -69,6 +67,7 @@ def rrmean(line):
     for i in range(n):
         totalSum += valList[i]
         i = i+1
+
     # get the sum needed for the average variable below
     totalSum = sum(valList)
 
