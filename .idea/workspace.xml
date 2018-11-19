@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b7b1509-c483-4420-b846-97ed0a14856f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/RMSSDAlgorithm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RRMeanAlgorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/RRMeanAlgorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RMSSDAlgorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/RMSSDAlgorithm.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +38,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="md" value="15" />
-          <entry key="py" value="3729" />
+          <entry key="py" value="4595" />
           <entry key="txt" value="31" />
         </counts>
       </usages-collector>
@@ -49,7 +46,7 @@
         <counts>
           <entry key="Markdown" value="15" />
           <entry key="PLAIN_TEXT" value="31" />
-          <entry key="Python" value="3729" />
+          <entry key="Python" value="4595" />
         </counts>
       </usages-collector>
     </session>
@@ -59,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RRMeanAlgorithm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="-238">
+              <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="29" />
               <folding>
                 <marker date="1542608527426" expanded="true" signature="1068:1073" ph="..." />
                 <marker date="1542608527426" expanded="true" signature="1716:1721" ph="..." />
@@ -72,7 +69,15 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/RMSSDAlgorithm.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+              <folding>
+                <element signature="e#450#479#0" expanded="true" />
+                <marker date="1542609244247" expanded="true" signature="524:553" ph="..." />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -314,8 +319,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RRMeanAlgorithm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="-238">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="29" />
           <folding>
             <marker date="1542608527426" expanded="true" signature="1068:1073" ph="..." />
             <marker date="1542608527426" expanded="true" signature="1716:1721" ph="..." />
@@ -325,7 +330,15 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RMSSDAlgorithm.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding>
+            <element signature="e#450#479#0" expanded="true" />
+            <marker date="1542609244247" expanded="true" signature="524:553" ph="..." />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
